@@ -1,0 +1,17 @@
+/*default text class - this keeps shortcode output constrained within a blog post etc*/
+.text { 
+    text-align: left;
+    color: green;
+}
+
+/*default image class*/
+.image {
+    max-width: 200;
+    max-height: 200;
+    float: left;
+    margin: 2px;
+    vertical-align: middle;
+}
+
+/*for identifying margin/padding mistakes etc in html/css code used*/
+.debug { border: 1px solid black; }
