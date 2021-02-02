@@ -12,7 +12,7 @@ if(!defined('WP_UNINSTALL_PLUGIN')) {
 
     $sql = "UPDATE wp_post SET post_content = REPLACE(post_content, '[shortcode]', '')";
 
-    $wpdb->query(sql);
+    $wpdb->query($sql);
 } */
 
 ?>
