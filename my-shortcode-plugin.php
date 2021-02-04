@@ -37,26 +37,19 @@ function my_shortcode_init() {
       'url' => '#'
     ), $atts );
 
-    //create a custom string to greet the user - don't trust the user
-    $text = "<p class='text'>";
+    //create a custom string to greet the user - don't trust the user - EXCELLENT!
+    $text = "
+    <p class='text'> 
+      Hello " . esc_attr($atts_array['name']) . "!
+    </p> 
     
-    $text .= "Hello ";
-
-    $text .= esc_attr($atts_array['name']);
+    <div>
+      <img src='" . esc_url($atts_array['url']) . "' class='image' alt='my image' />
+    </div>
     
-    $text .= "!"; 
-
-    $text .= "<div><img src='";
-
-    $text .= esc_url($atts_array['url']);
-    
-    $text .= "' class='image' alt='my image'/></div><div class='text'>";
-
-    $text .= esc_attr($content);
-
-    $text.= "</div>";
-
-    $text .= "<br/>"; 
+    <div class='text'>" . esc_attr($content) . "</div>
+    <br />
+    ";
 
     //return our custom string
     return $text;
