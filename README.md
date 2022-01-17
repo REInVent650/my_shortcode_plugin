@@ -1,5 +1,8 @@
 # my_shortcode_plugin
  To display a custom profile card start with this and fill in the details: [shortcode name="my name" url="a picture of your lovely face"]a short description[/shortcode]
+You should get something that looks like this:
+![alt text](https://github.com/REInVent650/my_shortcode_plugin/blob/main/demo.png?raw=true)
+
 
 Resources I learned from:
 
