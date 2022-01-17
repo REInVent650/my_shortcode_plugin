@@ -1,7 +1,7 @@
 # my_shortcode_plugin
  To display a custom message do: [shortcode name="" url=""]description[/shortcode]
 
-Resources:
+Resources I learned from:
 
 https://developer.wordpress.org/plugins/intro/
 
