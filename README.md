@@ -1,5 +1,5 @@
 # my_shortcode_plugin
- To display a custom message do: [shortcode name="" url=""]description[/shortcode]
+ To display a custom profile card start with this and fill in the details: [shortcode name="my name" url="a picture of your lovely face"]a short description[/shortcode]
 
 Resources I learned from:
 
